@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5"
+            android:id="@+id/guideline"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textInputLayoutUserName"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxBackgroundColor="@color/white_gray"
+            app:boxStrokeColor="@color/colorPrimaryVariant"
+            app:hintTextColor="@color/colorPrimaryVariant"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/guideline">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/edt_username"
+                android:padding="15dp"
+                android:inputType="textPersonName"
+                android:drawableStart="@drawable/ic_person"
+                android:drawableTint="@color/text_color"
+                android:drawablePadding="20dp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/text_color"
+                android:hint="@string/enter_your_name"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            app:boxBackgroundColor="@color/white_gray"
+            app:boxStrokeColor="@color/colorPrimaryVariant"
+            app:hintTextColor="@color/colorPrimaryVariant"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/edt_weight"
+                android:padding="15dp"
+                android:inputType="numberDecimal"
+                android:drawableStart="@drawable/ic_weight"
+                android:drawableTint="@color/text_color"
+                android:drawablePadding="20dp"
+                android:textColorHint="@color/black"
+                android:textColor="@color/text_color"
+                android:hint="@string/enter_your_weight"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="@string/continue_text"
+            android:layout_margin="20sp"
+            android:background="@drawable/button_shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
