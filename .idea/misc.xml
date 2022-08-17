@@ -8,6 +8,7 @@
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/drawable/bottom_nav_background.xml" value="0.136" />
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/drawable/btn_rectangle_round_background.xml" value="0.136" />
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/drawable/check_mark.xml" value="0.136" />
+        <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/drawable/ic_running_foreground.xml" value="0.136" />
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/drawable/rectangle_round_background_color.xml" value="0.136" />
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/drawable/v.xml" value="0.136" />
@@ -17,6 +18,7 @@
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/layout/fragment_setup.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/layout/fragment_statistics.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/layout/fragment_tracking.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/layout/rv_item_run.xml" value="0.2234375" />
         <entry key="..\:/Users/abbp1/StudioProjects/RunningApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22447916666666667" />
       </map>
     </option>
